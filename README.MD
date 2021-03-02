@@ -8,11 +8,11 @@ STITCH is a comprehensive and Industry 4.0 ready enterprise solution for apparel
 
 Clone this repository and import into **Android Studio**
 
-git clone <clone url>
+**git clone <clone url>**
   
 **Build variants**
 
-Use the Android Studio Build Variants button to choose between production(operation) and staging flavors combined with debug and release build types
+Use the Android Studio Build Variants button to choose between **production(operation)** and **staging** flavors combined with debug and release build types
 
 **Generating APK**
 
