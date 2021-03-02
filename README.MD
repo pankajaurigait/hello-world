@@ -23,8 +23,23 @@ From Android Studio:
 1. ***Build*** menu  
 2.Project<ProjectName> -> select **app** -> **build** -> **assemble**
 
+## Architecture overview
 
-## Describe your project
+The app is a stateless client: all operations are performed
+by calling api endpoints over the network.
+
+Local data is in effect mutable, the user just perform action like Pass,Alter,Reject.
+After that Local data is sync with api to server.
+
+The domain model objects are used throughout the app. They are plain
+Java objects.
+
+Activities and fragments are for presentation logic & business
+logic is placed. 
+
+TODO: LiveData,ViewModel
+
+
 
 
 
